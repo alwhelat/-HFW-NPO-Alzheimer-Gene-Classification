@@ -111,8 +111,8 @@ hfw-npo/
 ## Installation
 
 ```bash
-git clone https://github.com/almuntadher-alwhelat/hfw-npo.git
-cd hfw-npo
+git clone https://github.com/alwhelat/-HFW-NPO-Alzheimer-Gene-Classification.git
+cd -HFW-NPO-Alzheimer-Gene-Classification
 pip install -r requirements.txt
 ```
 
@@ -210,11 +210,15 @@ Preprocessing (z-score normalization, batch harmonisation for peripheral blood)
 
 If you use this code or data, please cite:
 
+**APA:**
+> Alwhelat, A. M., & Abiyev, R. H. (2026). HFW-NPO: A Dual a Paradigm Hybrid Filter–Wrapper Nomadic People Optimizer Framework for High-Dimensional Alzheimer's Gene Expression Classification. *Electronics*, *15*(13), 2970. https://doi.org/10.3390/electronics15132970
+
+**BibTeX:**
 ```bibtex
-@article{abiyev2026hfwnpo,
-  title     = {HFW-NPO: A Dual Paradigm Hybrid Filter--Wrapper Nomadic People Optimizer
+@article{alwhelat2026hfwnpo,
+  title     = {HFW-NPO: A Dual a Paradigm Hybrid Filter--Wrapper Nomadic People Optimizer
                Framework for High-Dimensional {Alzheimer's} Gene Expression Classification},
-  author    = {Abiyev, Rahib H. and Alwhelat, Almuntadher},
+  author    = {Alwhelat, Almuntadher M. and Abiyev, Rahib H.},
   journal   = {Electronics},
   publisher = {MDPI},
   volume    = {15},

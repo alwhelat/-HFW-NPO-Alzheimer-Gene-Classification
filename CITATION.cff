@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
-title: "HFW-NPO: A Dual Paradigm Hybrid Filter-Wrapper Nomadic People Optimizer for High-Dimensional Alzheimer's Gene Expression Classification"
+title: "HFW-NPO: A Dual a Paradigm Hybrid Filter-Wrapper Nomadic People Optimizer Framework for High-Dimensional Alzheimer's Gene Expression Classification"
 abstract: >
   A three-stage feature selection pipeline for high-dimensional Alzheimer's
   disease gene expression microarray data. Combines a tri-criterion hybrid
@@ -13,16 +13,16 @@ abstract: >
   Gradient Boosting). Evaluated on four GEO datasets (GSE33000, GSE132903,
   GSE63060+GSE63061, GSE122063) under a dual-paradigm protocol.
 authors:
-  - family-names: Abiyev
-    given-names: Rahib H.
-    affiliation: Near East University, Nicosia, North Cyprus
   - family-names: Alwhelat
-    given-names: Almuntadher
+    given-names: Almuntadher M.
     email: almuntadher.mahmood@alfarabiuc.edu.iq
     affiliation: >
       Near East University, Nicosia, North Cyprus;
       Al-Farabi University College, Baghdad, Iraq
-repository-code: "https://github.com/alwhelat/HFW-EBNPO-Alzheimer-Gene-Classification"
+  - family-names: Abiyev
+    given-names: Rahib H.
+    affiliation: Near East University, Nicosia, North Cyprus
+repository-code: "https://github.com/alwhelat/-HFW-NPO-Alzheimer-Gene-Classification"
 url: "https://www.mdpi.com/2079-9292/15/13/2970"
 license: CC-BY-3.0
 version: "1.0.0"
@@ -41,13 +41,13 @@ keywords:
 preferred-citation:
   type: article
   title: >
-    HFW-NPO: A Dual Paradigm Hybrid Filter-Wrapper Nomadic People Optimizer
+    HFW-NPO: A Dual a Paradigm Hybrid Filter-Wrapper Nomadic People Optimizer
     Framework for High-Dimensional Alzheimer's Gene Expression Classification
   authors:
+    - family-names: Alwhelat
+      given-names: Almuntadher M.
     - family-names: Abiyev
       given-names: Rahib H.
-    - family-names: Alwhelat
-      given-names: Almuntadher
   journal: Electronics
   publisher: MDPI
   volume: 15

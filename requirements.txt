@@ -1,5 +1,5 @@
 # ============================================================
-# HFW-EBNPO — Python Dependencies
+# HFW-NPO — Python Dependencies
 # A Hybrid Filter-Wrapper Nomadic People Optimizer Framework
 # for High-Dimensional Alzheimer's Gene Expression Classification
 # ============================================================
