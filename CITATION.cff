@@ -1,53 +1,60 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
-title: "HFW-EBNPO: A Hybrid Filter-Wrapper Enhanced Binary Nomadic People Optimizer for Alzheimer's Gene Expression Classification"
+title: "HFW-NPO: A Dual Paradigm Hybrid Filter-Wrapper Nomadic People Optimizer for High-Dimensional Alzheimer's Gene Expression Classification"
 abstract: >
-  A four-phase feature selection pipeline for high-dimensional Alzheimer's
-  disease gene expression microarray data. Combines a three-score hybrid
-  filter (Fisher + Mutual Information + Welch t-test), adaptive SMOTE
-  balancing, an Enhanced Binary Nomadic People Optimizer (EBNPO) wrapper
-  with Lévy flight and clan-family hierarchy, and a soft-voting ensemble
-  classifier (RF + SVM + LR). Evaluated on four GEO datasets (GSE33000,
-  GSE132903, GSE63060, GSE122063).
+  A three-stage feature selection pipeline for high-dimensional Alzheimer's
+  disease gene expression microarray data. Combines a tri-criterion hybrid
+  filter (Fisher Discriminant Ratio + Mutual Information + Welch t-test)
+  aggregated via an omega-score, intra-fold SMOTE balancing, a Binary
+  Nomadic People Optimizer wrapper with adaptive Lévy-scale anti-stagnation
+  mechanism and hill-climbing local search, and a five-member soft-voting
+  ensemble (ExtraTrees + SVM-RBF + Logistic Regression + Random Forest +
+  Gradient Boosting). Evaluated on four GEO datasets (GSE33000, GSE132903,
+  GSE63060+GSE63061, GSE122063) under a dual-paradigm protocol.
 authors:
+  - family-names: Abiyev
+    given-names: Rahib H.
+    affiliation: Near East University, Nicosia, North Cyprus
   - family-names: Alwhelat
     given-names: Almuntadher
     email: almuntadher.mahmood@alfarabiuc.edu.iq
     affiliation: >
       Near East University, Nicosia, North Cyprus;
       Al-Farabi University College, Baghdad, Iraq
-    orcid: ""
-  - family-names: Abiyev
-    given-names: Rahib H.
-    affiliation: Near East University, Nicosia, North Cyprus
 repository-code: "https://github.com/alwhelat/HFW-EBNPO-Alzheimer-Gene-Classification"
-license: MIT
+url: "https://www.mdpi.com/2079-9292/15/13/2970"
+license: CC-BY-3.0
 version: "1.0.0"
-date-released: "2026-06-24"
+date-released: "2026-07-07"
 keywords:
   - feature selection
   - gene expression
   - Alzheimer's disease
   - metaheuristic optimization
   - Nomadic People Optimizer
-  - Lévy flight
-  - opposition-based learning
+  - hybrid filter-wrapper
+  - SMOTE
+  - ensemble classifier
   - bioinformatics
-  - classification
   - microarray
 preferred-citation:
-  type: conference-paper
+  type: article
   title: >
-    A Hybrid Filter-Wrapper Nomadic People Optimizer Framework
-    for High-Dimensional Alzheimer's Gene Expression Classification
+    HFW-NPO: A Dual Paradigm Hybrid Filter-Wrapper Nomadic People Optimizer
+    Framework for High-Dimensional Alzheimer's Gene Expression Classification
   authors:
-    - family-names: Alwhelat
-      given-names: Almuntadher
     - family-names: Abiyev
       given-names: Rahib H.
-  collection-title: >
-    Proceedings of the 13th International Conference on Computer Science,
-    Computer Engineering, and Social Media (ICSCCW-2026)
+    - family-names: Alwhelat
+      given-names: Almuntadher
+  journal: Electronics
+  publisher: MDPI
+  volume: 15
+  issue: 13
+  pages: "2970"
   year: 2026
-  status: under-review
+  month: 7
+  doi: "10.3390/electronics15132970"
+  url: "https://www.mdpi.com/2079-9292/15/13/2970"
+  issn: "2079-9292"
